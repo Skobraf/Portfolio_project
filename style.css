@@ -126,6 +126,52 @@ div.about-me div.terminal > div.terminal-window {
   font-family: Monaco,Consolas,Lucida Console,monospace;
 }
 
+div.about-me div.terminal > div.terminal-window div.statement:first-child {
+  padding-top: 35px;
+}
+
+div.about-me div.terminal > div.terminal-window div.statement:last-child {
+  padding-bottom: 35px;
+}
+
+div.about-me div.terminal > div.terminal-window div.statement {
+  margin-bottom: 25px;
+  margin-left: 35px;
+  margin-right: 35px;
+  line-height: 24px;
+  font-size: 18px;
+}
+
+div.about-me div.terminal > div.terminal-window div.input-statement {
+  color: #f7f7f7;
+  font-size: 100%;
+  font: inherit;
+}
+
+div.about-me div.terminal > div.terminal-window div.input-statement::before {
+  content: "$ ";
+}
+
+div.about-me div.terminal > div.terminal-window div.return-statement {
+  color: #e7d184;
+}
+
+div.about-me div.terminal > div.terminal-window div.return-statement a {
+  text-decoration: none;
+  color: #35feff;
+}
+
+div.about-me div.terminal > div.terminal-window div.return-statement a:hover {
+  background-color: #9284ff;
+}
+
+div.about-me div.terminal > div.terminal-window div.input-statement > span.terminal-blink {
+  background: hsla(0,0%,97%,.65);
+  animation: caret 1s steps(1) infinite;
+  display: inline-block;
+  width: 5px;
+}
+
 @keyframes caret {
   50% {
     background-color: transparent;
