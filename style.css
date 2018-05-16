@@ -83,6 +83,49 @@ div.overview div.description > p {
   text-rendering: optimizeLegibility;
 }
 
+div.about-me div.terminal > div.terminal-header {
+  height: 28px;
+  background-color: #e4e3e5;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+div.about-me div.terminal > div.terminal-header > div.red-btn {
+  background-color: #f96256;
+  border: 1px solid #f65549;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-left: 9px;
+}
+
+div.about-me div.terminal > div.terminal-header > div.yellow-btn {
+  background-color: #fdbc3d;
+  border: 1px solid #ffb524;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-left: 9px;
+}
+
+div.about-me div.terminal > div.terminal-header > div.green-btn {
+  background-color: #33c948;
+  border: 1px solid #2dbb41;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-left: 9px;
+}
+
+div.about-me div.terminal > div.terminal-window {
+  background-color: #666385;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 50px 100px rgba(50,50,93,.15), 0 15px 35px rgba(50,50,93,.2), 0 5px 15px rgba(0,0,0,.12);
+  font-family: Monaco,Consolas,Lucida Console,monospace;
+}
+
 @keyframes caret {
   50% {
     background-color: transparent;
