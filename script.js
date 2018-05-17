@@ -1,27 +1,27 @@
 
 const statements = [
   {
-    input: 'Justin.currentLocation',
-    return: '["San Jose", "CA"]'
+    input: 'Ayoub.currentLocation',
+    return: '["Ahfir", "Morocco"]'
   },
   {
-    input: 'Justin.contactInfo',
-    return: '["<a href="mailto:j.chi2241@gmail.com">j.chi2241@gmail.com</a>", "<a href="https://www.linkedin.com/in/justin-chi-64b12b37">LinkedIn</a>", "<a href="https://github.com/vai0">github</a>"]'
+    input: 'Ayoub.contactInfo',
+    return: '["<a href="mailto:skobraf@gmail.com">skobraf@gmail.com</a>", "<a href="https://www.linkedin.com/in/ayoub-abed/">LinkedIn</a>", "<a href="https://github.com/vai0">github</a>"]'
   },
   {
-    input: 'Justin.resume',
+    input: 'Ayoub.resume',
     return: '["<a href="./justinchi_resume.pdf" target="_blank">justinchi.pdf</a>"]'
   },
   {
-    input: 'Justin.interests',
+    input: 'Ayoub.interests',
     return: '["design", "basketball", "cooking", "starcraft"]'
   },
   {
-    input: 'Justin.education',
+    input: 'Ayoub.education',
     return: '["B.Sc. Structural Engineering - University of California", "San Diego"]'
   },
   {
-    input: 'Justin.skills',
+    input: 'Ayoub.skills',
     return: '["Sass", "JavaScript", "Python", "React", "Redux", "Flask", "webpack", "git"]'
   }
 ];
