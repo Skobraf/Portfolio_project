@@ -27,8 +27,19 @@ const statements = [
 ];
 
 console.log(statements[0]);
+var i = 0;
+var txt = "Abed Ayoub";
+var speed = 200;
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("typing").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+};
 
 window.onload = function() {
+  typeWriter()
   // Create every statement stored in 'statements variable'
   for(var i = 0; i < statements.length; i++){
     createStatement(i);

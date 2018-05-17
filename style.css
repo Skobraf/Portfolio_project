@@ -52,20 +52,18 @@ nav ul li > a:hover {
   padding:4%;
   max-width: 1026px;
 }
-
 div.overview div.title {
-
+  display: flex;
 }
 div.overview div.title > h1 {
   font-size: 4.5em;
   color: #9284FF;
 }
-div.overview div.title > h1::before {
+div.overview div.title > h1.yes::before {
   content: ">";
   margin-right: 30px;
   color: #9284FF;
 }
-
 div.overview div.title > h1 > span {
   background-color: rgba(146,132,255,.65);
   animation: caret 1s steps(1) infinite;
