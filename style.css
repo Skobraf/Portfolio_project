@@ -1,0 +1,179 @@
+body {
+  background: #ECE9E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin : 0;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+nav {
+  display: flex;
+  flex-direction: row-reverse;
+  background: white;
+  height: 100px;
+  border-bottom: 1px solid rgba(20, 20, 20, 0.1);
+}
+
+nav ul{
+  display: flex;
+  padding-right: 50px;
+}
+
+nav ul li{
+  padding: 30px;
+}
+
+nav ul li:hover {
+  border-bottom: 2px solid green;
+}
+
+nav ul li > a {
+  text-decoration: inherit;
+  color: inherit;
+  display: block;
+}
+
+nav ul li > a:hover {
+  color: green;
+}
+
+#app {
+  margin: 0 auto;
+  max-width: 1026px;
+}
+
+div.overview div.title {
+
+}
+div.overview div.title > h1 {
+  font-size: 4.5em;
+  color: #9284FF;
+}
+div.overview div.title > h1::before {
+  content: ">";
+  margin-right: 30px;
+  color: #9284FF;
+}
+
+div.overview div.title > h1 > span {
+  background-color: rgba(146,132,255,.65);
+  animation: caret 1s steps(1) infinite;
+  display: inline-block;
+  height: 72px;
+  line-height: 72px;
+  width: 10px;
+  margin-left: 5px;
+}
+
+div.overview div.description {
+
+}
+div.overview div.description > p {
+  font-family: Camphor,Open Sans,Segoe UI,sans-serif;
+  font-weight: 200;
+  font-size: 1.3em;
+  line-height: 40px;
+  color: #525f7f;
+  margin: 80px 0;
+  text-rendering: optimizeLegibility;
+}
+
+div.about-me div.terminal > div.terminal-header {
+  height: 28px;
+  background-color: #e4e3e5;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+div.about-me div.terminal > div.terminal-header > div.red-btn {
+  background-color: #f96256;
+  border: 1px solid #f65549;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-left: 9px;
+}
+
+div.about-me div.terminal > div.terminal-header > div.yellow-btn {
+  background-color: #fdbc3d;
+  border: 1px solid #ffb524;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-left: 9px;
+}
+
+div.about-me div.terminal > div.terminal-header > div.green-btn {
+  background-color: #33c948;
+  border: 1px solid #2dbb41;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-left: 9px;
+}
+
+div.about-me div.terminal > div.terminal-window {
+  background-color: #666385;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 50px 100px rgba(50,50,93,.15), 0 15px 35px rgba(50,50,93,.2), 0 5px 15px rgba(0,0,0,.12);
+  font-family: Monaco,Consolas,Lucida Console,monospace;
+}
+
+div.about-me div.terminal > div.terminal-window div.statement:first-child {
+  padding-top: 35px;
+}
+
+div.about-me div.terminal > div.terminal-window div.statement:last-child {
+  padding-bottom: 35px;
+}
+
+div.about-me div.terminal > div.terminal-window div.statement {
+  margin-bottom: 25px;
+  margin-left: 35px;
+  margin-right: 35px;
+  line-height: 24px;
+  font-size: 18px;
+}
+
+div.about-me div.terminal > div.terminal-window div.input-statement {
+  color: #f7f7f7;
+  font-size: 100%;
+  font: inherit;
+}
+
+div.about-me div.terminal > div.terminal-window div.input-statement::before {
+  content: "$ ";
+}
+
+div.about-me div.terminal > div.terminal-window div.return-statement {
+  color: #e7d184;
+}
+
+div.about-me div.terminal > div.terminal-window div.return-statement a {
+  text-decoration: none;
+  color: #35feff;
+}
+
+div.about-me div.terminal > div.terminal-window div.return-statement a:hover {
+  background-color: #9284ff;
+}
+
+div.about-me div.terminal > div.terminal-window div.input-statement > span.terminal-blink {
+  background: hsla(0,0%,97%,.65);
+  animation: caret 1s steps(1) infinite;
+  display: inline-block;
+  width: 5px;
+}
+
+@keyframes caret {
+  50% {
+    background-color: transparent;
+  }
+}
