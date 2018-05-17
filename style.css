@@ -213,6 +213,13 @@ div.about-me div.terminal > div.terminal-window div.input-statement > span.termi
   overflow: hidden;
 }
 
+.projects-container .project-card .project-content p a {
+    text-decoration: none;
+    color: #9284ff;
+    position: relative;
+    font-weight: 700;
+}
+
 .projects-container .project-card .project-screenshot {
   background: url(first.PNG) 0% 0% / cover no-repeat;
   position: absolute;
@@ -300,8 +307,12 @@ div.about-me div.terminal > div.terminal-window div.input-statement > span.termi
   font-size: .9em;
   font-weight: 600;
 }
-
-
+.projects-container .project-card .project-content > .project-links > .project-link:hover {
+  background:#6f60dd;
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50,50,93,.1),
+              0 3px 6px rgba(0,0,0,.08);
+}
 .contact-links {
   font-family: inherit;
   font-size: 1.2em;
