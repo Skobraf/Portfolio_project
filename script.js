@@ -1,3 +1,8 @@
+/*{
+  input: 'Ayoub.resume',
+  return: '["<a href="./justinchi_resume.pdf" target="_blank">justinchi.pdf</a>"]'
+},
+*/
 
 const statements = [
   {
@@ -6,23 +11,19 @@ const statements = [
   },
   {
     input: 'Ayoub.contactInfo',
-    return: '["<a href="mailto:skobraf@gmail.com">skobraf@gmail.com</a>", "<a href="https://www.linkedin.com/in/ayoub-abed/">LinkedIn</a>", "<a href="https://github.com/vai0">github</a>"]'
-  },
-  {
-    input: 'Ayoub.resume',
-    return: '["<a href="./justinchi_resume.pdf" target="_blank">justinchi.pdf</a>"]'
+    return: '["<a  target="_blank" href="mailto:skobraf@gmail.com">skobraf@gmail.com</a>", "<a target="_blank" href="https://www.linkedin.com/in/ayoub-abed/">LinkedIn</a>", "<a target="_blank" href="https://github.com/Skobraf">github</a>"]'
   },
   {
     input: 'Ayoub.interests',
-    return: '["design", "basketball", "cooking", "starcraft"]'
+    return: '["Programming", "Foot-ball", "Reading"]'
   },
   {
     input: 'Ayoub.education',
-    return: '["B.Sc. Structural Engineering - University of California", "San Diego"]'
+    return: '["B.Sc. Science Engineering - University of Med First", "Oujda"]'
   },
   {
     input: 'Ayoub.skills',
-    return: '["Sass", "JavaScript", "Python", "React", "Redux", "Flask", "webpack", "git"]'
+    return: '["Sass", "JavaScript","Ruby on Rails", "React", "Redux", "webpack", "git"]'
   }
 ];
 

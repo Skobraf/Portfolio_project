@@ -332,13 +332,47 @@ footer {
   color: #525f7f;
 }
 
-
-
-
-
-
-
-
+@media screen and (max-width: 700px) {
+  .navbar {
+    text-align: center;
+  }
+  nav ul {
+    padding-right: 18px;
+  }
+  .overview {
+    margin-top: 15vh;
+  }
+  .overview .title {
+    font-size: 0.6em;
+  }
+  div.overview div.title > h1 > span {
+    height: 39px;
+    line-height: 43px;
+    width: 5px;
+  }
+  div.overview div.description > p{
+    font-size: 1.2em;
+    line-height: 30px;
+    margin: 40px 0;
+  }
+  .projects-container .project-card .project-screenshot {
+    display: none;
+  }
+  .projects-container .project-card .project-background {
+    display: none;
+  }
+  .projects-container .project-card .project-content {
+    width: 100%;
+    padding: 7px;
+  }
+  .contact-links {
+    flex-direction: column;
+  }
+  .contact-links span:after {
+      content: "";
+      margin: 0;
+  }
+}
 
 @keyframes caret {
   50% {
